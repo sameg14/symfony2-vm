@@ -1,4 +1,4 @@
-# Instructions to install VM
+# Instructions to install VM (Mac only)
 
 Clone this repo anywhere on your computer and cd into it as such
 ```bash

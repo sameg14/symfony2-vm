@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
 # Halt any existing running vms
 cd ~/Desktop/symfony.vm
 vagrant halt
@@ -22,6 +24,9 @@ php symfony.phar new symfony2
 cd symfony2
 curl -sS https://getcomposer.org/installer | php
 php composer.phar update -vvv
+
+# Replace the app_dev.php file, effectively removing the localhost restriction
+cp $DIR/app_dev.php ~/Desktop/symfony.vm/symfony2/web/app_dev.php
 
 # Create virtual machine
 cd ~/Desktop/symfony.vm
