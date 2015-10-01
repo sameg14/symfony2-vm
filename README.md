@@ -6,8 +6,6 @@
 
 The install script will make a folder on your desktop called symfony.vm
 
-Once the install completes, you can visit (http://10.10.10.11)[http://10.10.10.11] in your browser
-
 The VM has both production and development environments configured in apache. 
 
 Add the following entries to ```/etc/hosts``` on your mac
@@ -16,3 +14,7 @@ Add the following entries to ```/etc/hosts``` on your mac
 10.10.10.24     symfony2.prod
 ```
 
+You can access the environments as such:
+
+dev - http://symfony2.dev
+prod - http://symfony2.prod
