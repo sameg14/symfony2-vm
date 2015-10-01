@@ -28,3 +28,7 @@ You can access the environments in your browser with the following URLs:
 
 dev - http://symfony2.dev
 prod - http://symfony2.prod
+
+You can edit code directly in the `~/Desktop/symfony.vm/symfony2` folder using your favorite IDE. 
+The changes that you make will be directly visible in the VM, on the dev environment only. 
+The prod environment has caching turned on, so it will need a server restart in order to view your changes.
