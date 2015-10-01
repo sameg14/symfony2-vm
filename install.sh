@@ -3,7 +3,7 @@
 # Halt any existing running vms
 cd ~/Desktop/symfony.vm
 vagrant halt
-vagrant destroy
+vagrant destroy --force
 
 # Ensure vm folder exists and is empty
 cd ~/Desktop/
