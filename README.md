@@ -15,7 +15,7 @@ If you get any kind of permission error, change permissions and rerun
 sudo chmod a+x install.sh
 ```
 
-The install script will make a folder on your desktop called *symfony.vm* i.e. *~/Desktop/symfony.vm*
+The install script will make a folder on your desktop called `symfony.vm` i.e. `~/Desktop/symfony.vm`
 
 Add the following entries to ```/etc/hosts``` on your mac
 ```bash
