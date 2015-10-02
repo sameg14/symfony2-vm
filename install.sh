@@ -14,7 +14,7 @@ mkdir symfony.vm
 cd symfony.vm
 
 # Download vagrant file
-curl -O https://raw.githubusercontent.com/sameg14/symfony2-vm/master/VagrantFile
+curl -O https://gist.githubusercontent.com/sameg14/fad40977277a08536b8d/raw/c7d5e24e9e3eb54e04758a40584ba3874c152451/VagrantFile 
 
 # Download and install symfony
 curl -LsS http://symfony.com/installer -o symfony.phar
